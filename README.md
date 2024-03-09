@@ -29,3 +29,11 @@ A weather app is a software application designed to provide users with current a
 <h1><b>CSV Data</b></h1>
 <img src="https://github.com/2Abhi000/Abhishek20000/blob/main/w%20(7).png?raw=true">
 <br>
+<br>
+<h1><b>Tech Stack</b></h1>
+<ul><li>Python</li>
+<li>Flask Framework</li>
+<li>SqLite db</li>
+<li>HTML CSS JS</li>
+<li>API Integration and JSON</li></ul>
+<br>
