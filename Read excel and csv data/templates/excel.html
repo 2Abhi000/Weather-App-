@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excel Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to top right, #C4958A, #A0F07A);
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 80px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: none;
+        }
+
+        tr:nth-child(even) {
+            background-color: none;
+        }
+    </style>
+    <link rel="icon" href="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Status-weather-showers-day-icon.png" type="image/gif" sizes="16x16">
+
+</head>
+<body>
+    <h1>Excel Data</h1>
+    <table>
+        <tr>
+            <th>City</th>
+            <th>Temperature (°C)</th>
+            <th>Humidity (%)</th>
+            <th>Wind Speed (km/h)</th>
+        </tr>
+        {% for row in rows %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
