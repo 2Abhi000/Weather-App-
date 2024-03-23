@@ -30,6 +30,18 @@ A weather app is a software application designed to provide users with current a
 <img src="https://github.com/2Abhi000/Abhishek20000/blob/main/w%20(7).png?raw=true">
 <br>
 <br>
+<h1><b>Added Upload Button Functionality</b></h1>
+<img src="https://github.com/2Abhi000/Abhishek20000/blob/main/csvd%20(1).png?raw=true">
+<br>
+<br>
+<h1><b>Added Upload Button Functionality CSV Data</b></h1>
+<img src="https://github.com/2Abhi000/Abhishek20000/blob/main/csvd%20(2).png?raw=true">
+<br>
+<br>
+<h1><b>Added 406 Page</b></h1>
+<img src="https://github.com/2Abhi000/Abhishek20000/blob/main/csvd%20(3).png?raw=true">
+<br>
+<br>
 <h1><b>Tech Stack</b></h1>
 <ul><li>Python</li>
 <li>Flask Framework</li>
