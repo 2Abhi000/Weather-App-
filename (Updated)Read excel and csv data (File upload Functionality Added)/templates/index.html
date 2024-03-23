@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://github.com/2Abhi000/Abhishek20000/blob/main/uploaaa.png?raw=true" type="image/gif" sizes="16x16">
+<title>Upload File </title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top right, #C4958A, #A0F07A);
+    margin: 0;
+    padding: 121px;
+  }
+
+
+  
+  .container {
+    margin: 50px auto;
+    width: 50%;
+    background-image: linear-gradient(to top right, #C4958A, #A0F07A);
+    padding: 101px;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 34px
+  }
+  
+  .file-input {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .file-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+  }
+  
+  .file-input label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .file-input label:hover {
+    background-color: #0056b3;
+  }
+  
+  button {
+    
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Upload CSV or Excel File</h2>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+    <button type="submit" name="submit">Upload File</button>
+  </form>
+</div>
+</body>
+</html>

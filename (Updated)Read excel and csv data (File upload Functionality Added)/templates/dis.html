@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Status-weather-showers-day-icon.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+    <div class="container">
+        <h2>File Upload Result</h2>
+        <div class="dataframe">
+             {{ dataframe|safe }} 
+        </div>
+        
+    </div>
+</body>
+<script>
+    console.log("sss")
+    
+</script>
+
+</html>
